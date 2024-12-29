@@ -1,0 +1,5 @@
+
+Time Complexity - Number of steps that it takes to complete an algorithm.
+Memory Complexity - Amount of memory it takes to run an algorithm.
+ - Measurements always take the worst case scenario for performance comparison between algorithms.
+
