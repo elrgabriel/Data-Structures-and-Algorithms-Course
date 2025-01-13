@@ -1,0 +1,26 @@
+Implementation of BubbleSort algorithm in ascending order bubbling the large numbers to the end of the array.
+
+Outer Loop that splits the array on unsorted/sorted regions by keeping track of the last unsorted index,
+starting at the last index of the array. At each iteration the lastUnsortedIndex will be decremented to
+indicate the new lastUnsortedIndex.
+
+The previous index stored in the lastUnsortedIndex will be occupied by the sorted value
+        for (
+                int lastUnsortedIndex = intArray.length - 1;
+                lastUnsortedIndex > 0;
+                lastUnsortedIndex--
+        ) {
+
+            Inner loop traverses the array until current lastUnsortedIndex, swapping values when necessary at each
+            iteration.
+
+            for (int i = 0; i < lastUnsortedIndex; i++) {
+                if (intArray[i] > intArray[i + 1]) {
+                    swap(intArray, i, i + 1);
+                }
+            }
+        }
+
+Bubble sort is also a Stable Sort algorithm, which means when comparing duplicate elements, these elements positions
+are not changed. This happens because of the if block in the swap method, that checks when elements are equal to
+each other, and when they are the code stops and goes for the next iteration.
