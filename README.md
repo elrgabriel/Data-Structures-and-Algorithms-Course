@@ -7,6 +7,8 @@ Data Structures and Algorithms: Deep Dive Using Java by Tim Buchalka
 ### Algorithms
 - Bubble Sort
 - Selection Sort
+- Insertion Sort
+- Shell Sort
 
 
 (Ongoing)
