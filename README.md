@@ -12,5 +12,6 @@ Data Structures and Algorithms: Deep Dive Using Java by Tim Buchalka
 - Recursion
 - Merge Sort
 - Quick Sort
+- Counting Sort
 
 (Ongoing)

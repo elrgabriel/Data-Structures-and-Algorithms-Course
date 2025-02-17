@@ -36,7 +36,7 @@ public class Main {
             //NOTE: empty loop body
             while(i < j && input[++i] <= pivot);// Move i right until finding an element greater than the pivot
             if (i < j) {
-                input[j] = input[i]; // Move the larger element to the right partition
+                input[j] = input[i]; // Move the larger element to pivot's original position
             }
         }
 
