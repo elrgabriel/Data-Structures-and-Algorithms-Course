@@ -13,5 +13,6 @@ Data Structures and Algorithms: Deep Dive Using Java by Tim Buchalka
 - Merge Sort
 - Quick Sort
 - Counting Sort
+- Radix Sort
 
 (Ongoing)
