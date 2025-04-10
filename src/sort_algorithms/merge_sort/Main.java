@@ -2,11 +2,16 @@ package sort_algorithms.merge_sort;
 
 import java.util.Arrays;
 
+import static sort_algorithms.merge_sort.Challange.descendingMergeSort;
+
 public class Main {
     public static void main(String[] args) {
         int[] intArray = { 20, 35, -15, 7, 55, 1, -22 };
 
         mergeSort(intArray,0, intArray.length);
+        System.out.println(Arrays.toString(intArray));
+
+        descendingMergeSort(intArray,0, intArray.length);
         System.out.println(Arrays.toString(intArray));
 
     }

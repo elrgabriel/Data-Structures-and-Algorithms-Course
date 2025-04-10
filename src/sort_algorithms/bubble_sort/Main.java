@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[] intArray = { 20, 35, -15, 7, 55, 1, -22 };
+        int[] intArray = {20, 35, -15, 7, 55, 1, -22};
         System.out.println(Arrays.toString(intArray));
 
         for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
@@ -21,17 +21,17 @@ public class Main {
     }
 
 
-
-
     // Swaps the position of 2 values on a given array based on their index.
-    public static void swap(int[] array, int i, int j){
+    public static void swap(int[] array, int i, int j) {
 
         if (i == j) {         //If variables are equal, do nothing.
-        return;
+            return;
         }
         int temp = array[i]; // Store array value at index i in a temporary variable.
         array[i] = array[j]; // Changes the value at index i to the value contained in index j
         array[j] = temp;     // Changes the value at index j to the value that war previously contained at index i
     }
+
+    
 
 }
