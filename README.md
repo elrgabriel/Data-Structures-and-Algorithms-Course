@@ -4,6 +4,10 @@ Data Structures and Algorithms: Deep Dive Using Java by Tim Buchalka
 ### Data Structures
 - Arrays and Big-O Notation
 - Lists
+    - ArrayList
+    - Vector
+    - SinglyLinkedList
+    - DoublyLinkedList
 
 ### Algorithms
 - Bubble Sort
