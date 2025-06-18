@@ -6,8 +6,8 @@ Data Structures and Algorithms: Deep Dive Using Java by Tim Buchalka
 - Lists
     - ArrayList
     - Vector
-    - SinglyLinkedList
-    - DoublyLinkedList
+    - Singly Linked List
+    - Doubly Linked List
 
 ### Algorithms
 - Bubble Sort
