@@ -11,6 +11,8 @@ Data Structures and Algorithms: Deep Dive Using Java by Tim Buchalka
 - Stack
   - Array backed Stack
   - LinkedList backed Stack
+- Queue
+  - Array backed Queue
 
 ### Algorithms
 - Bubble Sort
