@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.NoSuchElementException;
 
 //Generic class implementation
+
 //Circular Queue
 public class ArrayQueue<T> {
     private T[] queue;
