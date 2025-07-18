@@ -1,5 +1,6 @@
-package hashtable;
+package hashtable.chainedhashtable;
 
+import hashtable.SimpleHashTable;
 import lists.arraylists.Employee;
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
         Employee marySmith = new Employee("Mary","Smith",22);
         Employee mikeWilson = new Employee("Mike","Wilson",123);
 
-        SimpleHashTable ht = new SimpleHashTable();
+        ChainedHashTable ht = new ChainedHashTable<>();
 
         ht.put("jones",janeJones);
         ht.put("doe",johnDoe);
@@ -17,11 +18,12 @@ public class Main {
         ht.put("wilson",mikeWilson);
 
         ht.printHashTable();
-        System.out.println("Retrieve key wilson: " + ht.get("wilson"));
-        System.out.println("Retrieve key smith: " + ht.get("smith"));
-        System.out.println("Removed: " + ht.remove("jones"));
 
-        ht.printHashTable();
-        System.out.println("Retrieve key smith: " + ht.get("smith"));
+//        System.out.println("Retrieve key wilson: " + ht.get("wilson"));
+//        System.out.println("Retrieve key smith: " + ht.get("smith"));
+//        System.out.println("Removed: " + ht.remove("jones"));
+//
+//        ht.printHashTable();
+//        System.out.println("Retrieve key smith: " + ht.get("smith"));
     }
 }
